@@ -44,5 +44,30 @@ padding和box-sizing同时出现不会改变盒子的原始高度
 
 ```opacity: 0.5;``` 透明度
 
+## 3_js
+js的简单语法，js代码写在html的script标签里
+```
+<script>
+        let a = 1
+        let arr = [1,2,3]
+        let flag = true
+        let obj = {
+            name: 'zhangsan',
+            age: 18
+        }
+
+        function test() {
+            console.log('test')
+        }
+        console.log(a,arr,flag,obj)
+        for(let i = 0; i < arr.length; i++){
+            console.log(arr[i])
+        }
+
+        obj.name = 'lisi'
+        console.log(obj)
+        test()
+    </script>
+```
 
 
